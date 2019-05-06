@@ -1,0 +1,218 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin:0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: normal;
+}
+h1{
+    font-size: 40px;
+    line-height: 1.5em;
+    letter-spacing: -.2px;
+    text-transform: uppercase;
+    color:white;
+    margin: 0;
+}
+h1 strong{
+    color: #026fff;
+}
+nav ol{
+    margin: 0;
+}
+.portfolio{
+    background: #fafafa;
+    padding:20px;
+}
+h2{
+    color:#026fff;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.project{
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 20px;
+    background:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.project-title{
+    font-size: 2em;
+    margin:10px 0px;
+}
+.project-tech,
+.project-date,
+.project-url{
+    margin:10px 0px;
+}
+.project-description{
+    font-size:1.2em;
+}
+.project-details{
+    width: 500px;
+}
+.project-imageContainer{
+    width:500px;
+}
+.project strong{
+    font-family: 'Fjalla One', sans-serif;
+}
+.project-image{
+    width: 400px;
+    object-fit: fill;
+}
+.hero{
+    height:300px;
+    background-color: black;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero-image{
+    object-fit: cover;
+    width: 200px;
+}
+.header{
+    background-color: black;
+    color: white;
+    display:flex;
+    justify-content: space-between;
+    height: 90px;
+    align-items: center;
+}
+ol, li{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+figure{
+    margin:0;
+}
+.menu{
+    height:inherit;
+}
+.header ol{
+    display:flex;
+    height:inherit;
+}
+.header ol li{
+    height: inherit;
+}
+.header a{
+    color:white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    height: inherit;
+    padding: 0 10px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    align-items: center;
+}
+.footer img{
+    vertical-align: middle;
+}
+.event{
+    margin:10px;
+    width:400px;
+    border-radius: 10px;
+    overflow:hidden;
+    flex-shrink: 0;
+    background: #f4fbff;
+}
+.event-detail{
+    margin:20px 40px;
+    margin-top:-40px;
+    background: white;
+    position: relative;
+    padding:20px;
+    text-align:center;
+}
+.event-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.event-list-title{
+    margin-left:20px;
+}
+.event-image{
+    width:400px;
+    height:200px;
+    object-fit: cover;
+}
+.event-url{
+    border: 1px solid #026fff;
+    padding: 5px 20px;
+    text-decoration: none;
+    color: #026fff;
+    border-radius:5px;
+}
+.contact{
+    background-color: #056fff;
+    color:white;
+    height:150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.social-link{
+    display:inline-block;
+    width:50px;
+    height:50px;
+    background-size: 50px 50px;
+    margin: 0 10px;
+}
+.social-link.twitter{
+    background-image: url('../images/twitter.png');
+    
+}
+.social-link.medium{
+    background-image: url('../images/medium.png');
+}
+.social-link.linkedin{
+    background-image: url('../images/linkedin.png');
+}
+.social-link.github{
+    background-image: url('../images/github.png');
+}
+.social-link.itchio{
+    background-image: url('../images/itchio.png');
+}
+.form-email input{
+    border-color: gray;
+    padding: 5px 20px 5px 25px;
+    border-radius: 5px;
+    background-image: url('../images/email.png');
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 5px;
+    width: 250px;
+}
+.form-email h3{
+    font-family: 'Source Sans Pro', sans-serif;   
+}
+.container{
+    width:1000px;
+    margin: 0 auto;
+    display: inherit;
+    height: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    flex-wrap: inherit;
+}
